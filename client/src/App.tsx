@@ -5,7 +5,10 @@
 // import { CounterButton } from "./components/CounterButton";
 // import { EventHandler } from "./components/EventHandler";
 // import { Timer } from "./components/Timer";
-import { DataFetch } from "./components/DataFetch";
+// import { DataFetch } from "./components/DataFetch";
+// import { DisplayData } from "./components/DisplayData";
+// import { LoginStatus } from "./components/LoginStatus";
+import { Parent } from "./components/Parent";
 function App() {
   return (
     <>
@@ -16,7 +19,10 @@ function App() {
     {/* <CounterButton /> */}
     {/* <EventHandler /> */}
     {/* <Timer /> */}
-    <DataFetch />
+    {/* <DataFetch /> */}
+    {/* <DisplayData /> */}
+    {/* <LoginStatus isLoggedIn={false} /> */}
+    <Parent />
     </>
   );
 }
